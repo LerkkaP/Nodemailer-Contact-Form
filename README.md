@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Node.js Nodemailer Contact Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates how to set up a contact form using Node.js and Nodemailer. A React component for the frontend part of the contact form is also included. You can also interact with the backend using tools such as Postman or Visual Studio REST Client. Please note that the frontend is intentionally unstyled to keep the focus on the backend implementation.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you begin, ensure you have met the following requirements:
 
-### `npm start`
+- Node.js installed on your machine
+- A Gmail account for sending emails
+- Google Cloud Console project with OAuth 2.0 credentials ( <em>follow this guide to setup the credentials [Create access credentials](https://developers.google.com/workspace/guides/create-credentials)</em>
+)
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install the required Node.js packages by running the following command in the project root directory:
 
-### `npm test`
+   ```bash
+   npm install
+   ```
+3. Create a .env file in the project root directory and provide the following values:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+	```bash
+	CLIENT_ID=your_client_id
+	CLIENT_SECRET=your_client_secret
+	REFRESH_TOKEN=your_refresh_token
+	```
 
-### `npm run build`
+	Replace your_client_id, your_client_secret, and your_refresh_token with your actual Google Cloud Console credentials.	
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the Node.js server by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+	```bash
+	node server.js
+	```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+	The server will start on port 3001.
 
-### `npm run eject`
+5. Start the React development server by running the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+	```bash
+	npm start
+	```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	The development server will start on port 3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Open your web browser and navigate to http://localhost:3000 to access the unstyled contact form.
 
-## Learn More
+2. Fill in the form with your name, email, and message.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Click the "Submit" button to send the contact form data to the Node.js server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. You will receive a response indicating whether the message was successfully sent or if an error occurred.
+# Node.js Nodemailer Contact Form
 
-### Code Splitting
+This project demonstrates how to set up a contact form using Node.js and Nodemailer. A React component for the frontend part of the contact form is also included. You can also interact with the backend using tools such as Postman or Visual Studio REST Client. Please note that the frontend is intentionally unstyled to keep the focus on the backend implementation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Prerequisites
 
-### Analyzing the Bundle Size
+Before you begin, ensure you have met the following requirements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js installed on your machine
+- A Gmail account for sending emails
+- Google Cloud Console project with OAuth 2.0 credentials ( <em>follow this guide to setup the credentials [Create access credentials](https://developers.google.com/workspace/guides/create-credentials)</em>
+)
+## Setup
 
-### Making a Progressive Web App
+1. Clone this repository to your local machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Install the required Node.js packages by running the following command in the project root directory:
 
-### Advanced Configuration
+   ```bash
+   npm install
+   ```
+3. Create a .env file in the project root directory and provide the following values:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+	```bash
+	CLIENT_ID=your_client_id
+	CLIENT_SECRET=your_client_secret
+	REFRESH_TOKEN=your_refresh_token
+	```
 
-### Deployment
+	Replace your_client_id, your_client_secret, and your_refresh_token with your actual Google Cloud Console credentials.	
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Start the Node.js server by running the following command:
 
-### `npm run build` fails to minify
+	```bash
+	node server.js
+	```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+	The server will start on port 3001.
+
+5. Start the React development server by running the following command:
+
+	```bash
+	npm start
+	```
+
+	The development server will start on port 3000.
+
+## Usage
+
+1. Open your web browser and navigate to http://localhost:3000 to access the unstyled contact form.
+
+2. Fill in the form with your name, email, and message.
+
+3. Click the "Submit" button to send the contact form data to the Node.js server.
+
+4. You will receive a response indicating whether the message was successfully sent or if an error occurred.
