@@ -1,6 +1,6 @@
 # Node.js Nodemailer Contact Form
 
-This project demonstrates how to set up a contact form using Node.js and Nodemailer. A React component for the frontend part of the contact form is also included. You can also interact with the backend using tools such as Postman or Visual Studio REST Client. Please note that the frontend is intentionally unstyled to keep the focus on the backend implementation.
+This project demonstrates how to set up a contact form using Node.js and Nodemailer. A React component for the frontend part of the contact form is also included. You can alternatively interact with the backend using tools such as Postman or Visual Studio REST Client. Please note that the frontend is intentionally unstyled to keep the focus on the backend implementation.
 
 ## Prerequisites
 
