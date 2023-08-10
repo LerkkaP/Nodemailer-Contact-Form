@@ -34,7 +34,7 @@ const contactEmail  = nodemailer.createTransport({
       clientId: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       refreshToken: process.env.REFRESH_TOKEN,
-      accessToken: myAccessToken //access token variable
+      accessToken: myAccessToken 
   }})
 
 router.post("/contact", (req, res) => {
