@@ -25,6 +25,7 @@ Before you begin, ensure you have met the following requirements:
 	CLIENT_ID=your_client_id
 	CLIENT_SECRET=your_client_secret
 	REFRESH_TOKEN=your_refresh_token
+	EMAIL=your_email_address
 	```
 
 	Replace your_client_id, your_client_secret, and your_refresh_token with your actual Google Cloud Console credentials.	
